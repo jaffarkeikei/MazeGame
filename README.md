@@ -1,13 +1,14 @@
-# Introduction
+# Maze Game
+## Introduction
 
 
-# How to Play 
+## How to Play 
 
 
-# Player
+## Player
 
 
-# Breadth-First Search
+## Breadth-First Search
 
 
-# Depth_First Search
+## Depth_First Search
