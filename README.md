@@ -19,3 +19,4 @@ Computer, which is the opponent, plays the game using tree traversal methods to 
 Once the game loads, identify the shortest route possible, and use keyboard directions to move the player to reach the target's location before the computer does, otherwise you lose the game. The winner gains 1 point upon winnig the game and loses 1 point when they lose the game.
 
 ## Demo
+Below is a sample of the game
