@@ -4,7 +4,7 @@ This game gets inspiration from the reknowned graph traversal techniques: breath
 
 
 ## Player
-
+The player is moved by the user with an aim of reaching the target's location before the computer does.
 
 ## Computer
 Computer, which is the opponent, plays the game using tree traversal methods to get to the target location.
