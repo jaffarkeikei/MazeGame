@@ -4,10 +4,10 @@ This game gets inspiration from the reknowned graph traversal techniques: breath
 
 
 ## Player
-The player is moved by the user with an aim of reaching the target's location before the computer does.
+The player, represented by a green tile, is moved by the user with an aim of reaching the target's location before the computer does. The player moves to the end of a line with a single keyboard press. The movement is limited to straight lines: vertically or horizontally.
 
 ## Computer
-Computer, which is the opponent, plays the game using tree traversal methods to get to the target location.
+Computer, which is the opponent, plays the game using tree traversal methods to get to the target location. The computer makes any possible number of moves based on the algorithm it uses before finding the target.
 
 ###  Breadth-First Search
 [Breadth-first search (BFS)](https://en.wikipedia.org/wiki/Breadth-first_search) is an algorithm for searching a tree data structure for a node that satisfies a given property. It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level.
