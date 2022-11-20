@@ -1,6 +1,6 @@
 # Maze Game
 ## Inspiration
-This game gets inspiration from the reknowned graph traversal techniques: breath-first search and depth-first search. 
+This game gets inspiration from the reknowned graph traversal techniques: breath-first search and depth-first search. I am utterly intrigued by these two graph traversal methods.
 
 
 ## Player
