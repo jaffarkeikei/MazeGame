@@ -9,10 +9,11 @@ The player, represented by a green tile, is moved by the user with an aim of rea
 ## Computer
 Computer, which is the opponent, plays the game using tree traversal methods to get to the target location. The computer makes any possible number of moves based on the algorithm it uses before finding the target.
 
-###  Breadth-First Search
+###  Algorithmic search methods
+####  Breadth-First Search
 [Breadth-first search (BFS)](https://en.wikipedia.org/wiki/Breadth-first_search) is an algorithm for searching a tree data structure for a node that satisfies a given property. It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level.
 
-###  Depth_First Search
+####  Depth_First Search
 [Depth-first search (DFS)](https://en.wikipedia.org/wiki/Depth-first_search)is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking. 
 
 ## How to Play 
