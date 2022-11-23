@@ -2,12 +2,14 @@
 ## Inspiration
 This game gets inspiration from the reknowned graph traversal techniques: breath-first search and depth-first search. I am utterly intrigued by these two graph traversal methods. Theoretically, it is believed that two thirds of graph interview questions can be solved using these two techniques. Consequently, proficiency in these two algorithms will allow you to solve at least two-thirds of tree and graph problems that you may encounter in real life situations.
 
+## The Game
+
 
 ## Player
 The player, represented by a green tile, is moved by the user with an aim of reaching the target's location before the computer does. The player moves to the end of a line with a single keyboard press. The movement is limited to straight lines: vertically or horizontally.
 
 ## Computer
-Computer, which is the opponent, plays the game using tree traversal methods to get to the target location. The computer makes any possible number of moves based on the algorithm it uses before finding the target.
+Computer, which is the opponent, initializes at the centre of the game window. It plays the game using tree traversal methods to get to the target location. The computer makes any possible number of moves based on the algorithm it uses before finding the target.
 
 ###  Algorithmic search methods
 ####  Breadth-First Search
