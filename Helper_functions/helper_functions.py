@@ -10,7 +10,7 @@ def screen_coords_from_grid_pos(pos, grid_dimensions):
     # 20 here is a turtle size of 18 plus 1 px border each side, so the size of one "cell".
     screen_x = - ((grid_dimensions[1] - 1) / 2 * 20) + (j * 20)
     screen_y = ((grid_dimensions[0] - 1) / 2 * 20) - (i * 20)
-    return (screen_x, screen_y)
+    return screen_x, screen_y
 
 
 def grid_pos_from_screen_coords(pos, dimensions):
