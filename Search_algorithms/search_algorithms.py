@@ -25,15 +25,24 @@ def dfs(board, start, goal):
     full_path = []
 
     while stack:
+
         current = stack.pop()
+
         full_path.append(current)
+
         if current == goal:
             return full_path
+
         for direction in ["up", "right", "down", "left"]:  # Other orders are fine too.
+
             row_offset, col_offset = config.offsets[direction]
+
             neighbour = (current[0] + row_offset, current[1] + col_offset)
+
             if helpers.is_legal_pos(board, neighbour) and neighbour not in visited:
+
                 stack.append(neighbour)
+
                 visited.add(neighbour)
 
 
