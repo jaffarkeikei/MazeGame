@@ -54,12 +54,21 @@ def bfs(board, start, goal):
 
     while queue:
         current = queue.popleft()
+
         full_path.append(current)
+
         if current == goal:
+
             return full_path
+
         for direction in ["up", "right", "down", "left"]:
+
             row_offset, col_offset = config.offsets[direction]
+
             neighbour = (current[0] + row_offset, current[1] + col_offset)
+
             if helpers.is_legal_pos(board, neighbour) and neighbour not in visited:
+
                 queue.append(neighbour)
+
                 visited.add(neighbour)

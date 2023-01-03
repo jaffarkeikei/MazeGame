@@ -3,7 +3,7 @@
 This game gets inspiration from the reknowned graph traversal techniques: breath-first search and depth-first search. I am utterly intrigued by these two graph traversal methods. Theoretically, it is believed that two thirds of graph interview questions can be solved using these two techniques. Consequently, proficiency in these two algorithms will allow you to solve at least two-thirds of tree and graph problems that you may encounter in real life situations.
 
 ## The Game
-The game is composed of two players; the computer and the user.
+This game is for a Python program that uses the turtle module to implement a simple game in which the player tries to find a treasure in a maze while being chased by an opponent. The player and opponent start at predetermined positions in the maze, and the treasure is randomly placed within the maze. The player can move around the maze using the arrow keys, and the opponent will try to follow the player using one search algorithm: depth-first search (DFS) or breadth-first search (BFS). The game can be reset and different search algorithms can be selected using buttons on a graphical user interface (GUI) created using the tkinter module. The game also keeps track of the scores of the player and opponent, and the game can be started or paused using another button on the GUI.
 
 ## Player
 The player, represented by a green tile, is moved by the user with an aim of reaching the target's location before the computer does. The player moves to the end of a line with a single keyboard press. The movement is limited to straight lines: vertically or horizontally.

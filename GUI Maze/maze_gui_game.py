@@ -263,10 +263,13 @@ class MazeGUI:
             next_pos = self.opponent_path.pop(0)
         except IndexError:
             return
+
         # Move opponent to next position
         self.draw_piece(self.opponent, next_pos, self.show_path)
+
         # Check for collision with treasure
         if next_pos == self.treasure_pos:
+
             # Player has found treasure
             self.playing = False
             self.screen.update()  # Show opponent in same cell as treasure
