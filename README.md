@@ -19,7 +19,10 @@ The opponent is also trying to navigate the maze and reach the treasure. The opp
 [Depth-first search (DFS)](https://en.wikipedia.org/wiki/Depth-first_search) is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking. 
 
 ## How to Play 
-Once the game loads, identify the shortest route possible, and use keyboard direction keys (up, down, left, right) to move the player to reach the target's location before the computer does, otherwise you lose the game. The winner gains 1 point upon winning the game and loses 1 point when they lose the game.
+To play the game, you would need to run the code that defines the MazeGUI class and create an instance of the class. This would create the game window and display the maze and game objects on the screen. You can then use the arrow keys on your keyboard to move the player around the maze, trying to reach the treasure before the opponent does. You can also use the controls on the game screen to select a different search algorithm for the opponent to use, and see how the different algorithms perform in the maze.
 
+The player's score is incremented each time they successfully reach the treasure, and the opponent's score is incremented each time they reach the treasure. The game continues until either the player or the opponent reaches a certain number of points, at which point the game is over and a winner is declared.
+
+You can also press the "Reset" button on the game screen to reset the game to its initial state, with the player and opponent returning to their starting positions and the treasure being placed at a new random location in the maze. This allows you to play multiple rounds of the game and try out different search algorithms.
 ## Demo
 Below is a sample of the game
