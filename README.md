@@ -24,5 +24,19 @@ To play the game, you would need to run the code that defines the MazeGUI class 
 The player's score is incremented each time they successfully reach the treasure, and the opponent's score is incremented each time they reach the treasure. The game continues until either the player or the opponent reaches a certain number of points, at which point the game is over and a winner is declared.
 
 You can also press the "Reset" button on the game screen to reset the game to its initial state, with the player and opponent returning to their starting positions and the treasure being placed at a new random location in the maze. This allows you to play multiple rounds of the game and try out different search algorithms.
-## Demo
-Below is a sample of the game
+
+## Future Improvemts
+Below are some ways to potentially improve this game, depending on the goals and the resources you have available.
+
+-Add more search algorithms: Currently, the game only allows the player to choose between two search algorithms (depth-first search and breadth-first search) for the opponent to use. You could add more search algorithms, such as A* search or Dijkstra's algorithm, to give the player more options and allow them to compare the performance of different algorithms in the maze.
+
+-Improve the AI: You could also try to improve the opponent's AI by implementing more advanced search algorithms or using machine learning techniques to make the opponent's movements more strategic.
+
+-Add more game elements: You could add more game elements, such as power-ups or obstacles, to make the game more interesting and challenging.
+
+-Add a level system: You could add a level system to the game, with each level featuring a different maze layout and increasing in difficulty as the player progresses.
+
+-Improve the graphics: You could also try to improve the graphics of the game, for example by using more advanced graphics libraries or by adding more visual effects to the game.
+
+-Multiplayer support: You could also add multiplayer support to the game, allowing multiple players to play against each other online.
+
